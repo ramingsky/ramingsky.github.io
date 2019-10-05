@@ -94,7 +94,7 @@ a {
 header,
 footer {
     width: 100%;
-    background-color: #264653;
+    background-color: #326b5d;
     text-align: center;
     padding: 0.5em;
     font-size: .85em;
@@ -132,8 +132,8 @@ main {
 
 main section {
     margin: 0.5em;
-    border: 1px solid #264653;
-    background-color: rgb(224, 186, 136);
+    border: 1px solid #392653;
+    background-color: rgb(128, 236, 106);
     box-shadow: 3px 3px 30px 3px #264653;
 
 }
