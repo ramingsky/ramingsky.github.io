@@ -24,10 +24,10 @@ header {
 
 h1 img { 
     float: right; 
-    margin: 6px; 
+    margin: 10px; 
     border: 1px solid #000; 
     background-color: red; 
-    width: 80%;
+    width: 12%;
     height: auto;
   }
 
