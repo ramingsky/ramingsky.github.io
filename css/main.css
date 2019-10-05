@@ -24,7 +24,7 @@ header {
 
 h1 img { 
     float: right; 
-    margin: 6px; 
+    margin: 3px; 
     border: 1px solid #000; 
     background-color: red; 
 }
