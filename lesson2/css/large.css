@@ -9,5 +9,8 @@
         grid-column: span 1;
     }
 
-
+main section img {
+    widows: 100%;
+    height: auto;
+}
 }

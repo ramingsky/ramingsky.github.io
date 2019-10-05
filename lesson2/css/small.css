@@ -122,7 +122,7 @@ body {
     margin-top: 1em;
 }
 
-/*************** Grid Layout Specifications *************/
+
 main {
     max-width: 750px;
     display: grid;
@@ -145,5 +145,5 @@ main section img {
 }
 
 main section p {
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
