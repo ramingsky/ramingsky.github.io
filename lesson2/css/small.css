@@ -134,13 +134,13 @@ main section {
     margin: 0.5em;
     border: 1px solid #392653;
     background-color: rgb(128, 236, 106);
-    box-shadow: 3px 3px 30px 3px #264653;
+    box-shadow: 3px 3px 35px 3px #264653;
 
 }
 
 main section img {
     padding: 0.5em;
-    width: 92%;
+    width: 100%;
     height: auto;
 }
 
