@@ -1,0 +1,123 @@
+/*
+Headings/Footer/Body
+*/
+
+h1,h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
+    margin: 0.75rem;
+    color: #120D18;
+    
+}
+h2 {
+    font-style: italic;
+    font-size: 1rem;
+}
+.text-addons{
+    margin: 0;
+}
+.img-addons {
+    width: 100%;
+    height: auto;
+}
+
+
+header, footer {
+    width: 100%;
+    background-color:#9BDBE8;
+    text-align: center;            
+    padding: 0.5em;
+    font-size: .85em;
+    
+}
+body {
+    font-family: 'Arimo', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #383A3C;
+}
+
+/*NAVIGATION BAR*/
+nav {
+    background-color: #120D18;
+    color: #383A3C;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+nav li{
+    justify-content: center;
+    align-content: center;
+}
+nav li a {
+    display: block;
+    color: #9BDBE8;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:#E3E6EE;
+    color:#383A3C;
+}
+.active {
+    background-color: #888D91;
+    color: #E3E6EE;
+}
+/* MAIN */
+main {
+    margin: 1em;
+  }
+  main article {
+    background-color: #e3e6ee;
+    border: 10px double #120D18;
+    padding: 1em;
+  }
+  /*Special font/color ID's*/
+  #righteous-text {
+      font-family:'Righteous';
+      border: 3px groove #120D18;
+      padding: 0.5em;
+      background-color: #888D91;
+  }
+  #arimo-text {
+      font-family: 'Arimo';
+      border: 3px groove #120D18;
+      padding: 0.5em;
+      background-color: #888D91;
+  }
+  #primary {
+    background-color:#383A3C;
+    color: #9BDBE8;
+    border: 3px ridge #120D18;
+    padding: 0.3rem;
+  }
+  #secondary {
+    background-color:#E3E6EE;
+    color: #120D18;
+    border: 3px ridge #120D18;
+    padding: 0.3rem;
+  }
+  #tertiary {
+    background-color:#9BDBE8;
+    color: #120D18; 
+    border: 3px ridge #120D18;
+    padding: 0.3rem;
+  }
+  #accent1 {
+    background-color:#888D91;
+    color: #120D18;
+    border: 3px ridge #120D18;
+    padding: 0.3rem;
+  }
+  #accent2 {
+    background-color:#120D18;
+    color:#e3e6ee;
+    border: 3px ridge #120D18;
+    padding: 0.3rem;
+  }

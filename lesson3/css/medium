@@ -1,0 +1,30 @@
+@media only screen and (min-width: 32.5em) {
+
+    body{
+        width: 75%;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    header,footer {
+        width: 98%;
+        border-width: 3px 3px 0px 3px;
+        border-style: groove;
+        border-color: #383A3C;
+    }
+    nav {
+        border-width: 0px 3px 3px 3px;
+        border-style: groove;
+        border-color: #383A3C;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        display: flex;
+        flex: 1 1 100%;
+    }
+}
