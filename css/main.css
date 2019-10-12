@@ -13,7 +13,7 @@ footer {
 
 header, 
 footer { 
-    background-color: red; 
+    background-color: green; 
     color: #fff; 
     text-align: center; 
 }
@@ -26,7 +26,7 @@ h1 img {
     float: right; 
     margin: 3px; 
     border: 1px solid #000; 
-    background-color: red; 
+    background-color: green; 
     width: 10%;
     height: auto;
   }
