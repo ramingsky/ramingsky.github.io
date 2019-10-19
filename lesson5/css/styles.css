@@ -42,7 +42,7 @@ nav {
 .stats {
   position: absolute;
   top: 5px;
-  right: 80px;
+  left: 80px;
   background: radial-gradient(#eee, #4567aa);
   border: 1px solid #000;
   padding: 1.5 rem;
