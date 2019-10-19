@@ -1,0 +1,38 @@
+@media only screen and (min-width: 37.5em) {
+    
+    .navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+    }
+    
+    nav ul {
+        display: flex;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+
+    nav a {
+        font-size: 1rem;
+
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+    }
+    
+    }
