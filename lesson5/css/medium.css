@@ -111,9 +111,9 @@ section.content {
 .box {
     background-color: #9BDBE8;
     margin: 15px 5px 15px;
-    border: 3px outset #383A3C;
-    box-shadow: 0 0 30px #383A3C;
-    text-align: center;
+    border: 3px #383A3C;
+    box-shadow: 0 0 30px rgb(53, 60, 68);
+    text-align: left;
 }
 
 article img {
@@ -122,5 +122,4 @@ article img {
 
 #map {
     display: block;
-}
 }
