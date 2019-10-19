@@ -1,16 +1,24 @@
 @media only screen and (min-width: 60em) {
-
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	header img {
-		width: 100%;
-	}
-
-	footer,
-	main {
-		max-width: 1250px;
-	}
+    .content{
+        border-color: #120D18;
+    }
+    main{
+        width:75%;
+        margin:auto;
+    }
+ footer{
+        width: 75%;
+        margin:auto;
+        border-width: 3px 3px 0px 3px;
+        border-style: groove;
+        border-color: #383A3C;
+        }
+header img {
+    width: 100%;
+}
+#pancakes h2 {
+    letter-spacing: .2rem;
+    font-size: 100%;
+}
 
 }

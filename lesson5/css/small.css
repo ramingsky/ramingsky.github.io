@@ -46,9 +46,6 @@ footer {
     margin: auto;
     max-width: 1000px;
 }
-
-
-
 footer {
     background-color: green;
     color: #fff;
@@ -143,6 +140,10 @@ footer .lastupdated4, .currentdate4 {
     color: yellow;
     border-bottom: 1px solid yellow;
 }
+.herodiv{
+    position: relative;
+    margin: 10px auto;
+}
 .summary-stats{
     position: absolute;
     top: 1.3em;
@@ -152,4 +153,8 @@ footer .lastupdated4, .currentdate4 {
     box-shadow: 0 0 30px #383A3C;
     padding: .7rem;
     opacity: .8;
+}
+.stats {
+    font-weight: bolder;
+    font-style: italic;
 }
