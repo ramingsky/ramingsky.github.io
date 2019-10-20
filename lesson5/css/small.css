@@ -161,11 +161,11 @@ footer .lastupdated4, .currentdate4 {
 }
 .summary-stats{
     position: absolute;
-    top: 1.3em;
-    left: 2em;
+    top: 1.1em;
+    left: 0.8em;
     background: radial-gradient(#E3E6EE,#383A3C);
     border: 3px solidblack #120D18;
-    box-shadow: 0 0 30px #383A3C;
+    box-shadow: 0 0 20px #383A3C;
     padding: .7rem;
     opacity: .8;
 }
