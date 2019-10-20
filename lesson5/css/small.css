@@ -142,14 +142,14 @@ footer .lastupdated4, .currentdate4 {
 }
 .herodiv{
     position: relative;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 .summary-stats{
     position: absolute;
     top: 1.3em;
     left: 2em;
     background: radial-gradient(#E3E6EE,#383A3C);
-    border: 3px dashed #120D18;
+    border: 3px solidblack #120D18;
     box-shadow: 0 0 30px #383A3C;
     padding: .7rem;
     opacity: .8;
