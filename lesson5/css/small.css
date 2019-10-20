@@ -1,3 +1,31 @@
+.pancakes {
+    font-family: 'Be Vietnam', sans-serif;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 10px;
+    background-color: lightgrey;
+    margin: 0.5rem;
+    border: 1px solid black;
+    display: block;
+}
+
+header {
+    font-family: 'Be Vietnam', sans-serif;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
 header {
     font-family: 'Be Vietnam', sans-serif;
     padding: 1.5rem;
