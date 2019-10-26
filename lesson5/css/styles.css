@@ -119,6 +119,7 @@ p {
   background: navyblue;
   padding: 1% 2%;
   border-radius: 10px;
+  float:left;
 }
 
 #banner {

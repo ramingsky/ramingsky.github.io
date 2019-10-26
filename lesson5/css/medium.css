@@ -29,12 +29,14 @@
 
     .headings h1 {
         font-size: 3rem;
+        flex: right;
     }
 
     .m {
         letter-spacing: 1.5pt;
         font-size: larger;
         margin-left: 17px;
+        flex: right;
     }
 
     section.content {
