@@ -1,18 +1,3 @@
-.pancakes {
-    font-family: 'Nunito', sans-serif;
-    padding: 2.0rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 0.5rem;
-    padding: 10px;
-    background-color: lightgreen;
-    margin: 0.5rem;
-    border: 1px solid grey;
-    display: block;
-}
-
 header {
     font-family: 'Be Vietnam', sans-serif;
     padding: 1.5rem;
@@ -154,21 +139,6 @@ h3 {
     border: 1px solid black;
 }
 
-main figure.myphoto {
-    width: 50% margins: 0 0 0 2%;
-    float: right;
-}
-
-main figure.myphoto img {
-    width: 100%
-}
-
-main figure.myphoto figcaption {
-    text -align: center;
-    font-size: .75 rem;
-}
-
-
 footer .lastupdated4,
 .currentdate4 {
     text-align: center;
@@ -178,8 +148,11 @@ footer .lastupdated4,
 }
 
 .herodiv {
+    margin: 10px auto;
     position: relative;
-    margin: 5px auto;
+    width: 960px;
+    height: 325px;
+}
 
 }
 .hero {
