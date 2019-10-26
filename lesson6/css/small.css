@@ -17,8 +17,8 @@ header {
     font-family: 'Be Vietnam', sans-serif;
     padding: 1.5rem;
     display: flex;
-	align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     background-color: green;
     color: maroon;
     text-align: center;
@@ -27,32 +27,32 @@ header {
 }
 
 header img {
-	width: 80px;
+    width: 80px;
     height: auto;
 }
 
 .headings {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .headings h1 {
-	font-size: 1.6rem;
-	margin: 0 0 0 17px;
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
 }
 
 .m {
-	font-style: italic;
-	letter-spacing: 1pt;
-	margin-left: 20px;
-	font-size: 2.3rem;
+    font-style: italic;
+    letter-spacing: 1pt;
+    margin-left: 20px;
+    font-size: 2.3rem;
 }
 
 body {
     font-size: 18px;
     line-height: 1.5;
     padding: 0;
-	margin: 0;
+    margin: 0;
 }
 
 main,
@@ -61,6 +61,7 @@ footer {
     margin: auto;
     max-width: 1000px;
 }
+
 footer {
     background-color: green;
     color: #fff;
@@ -82,27 +83,31 @@ nav {
 }
 
 .navigation {
-	list-style: none;
-	text-align: center;
-	padding: 0;
+    list-style: none;
+    text-align: center;
+    padding: 0;
 }
+
 .navigation li:first-child {
-	display: block;
+    display: block;
 }
+
 .navigation li {
-	display: none;
+    display: none;
 }
+
 .navigation a {
-	display: block;
-	color: #fff;
-	padding: 0.75rem;
-	text-align: center;
-	text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
 }
+
 .navigation a:hover {
-	color: #000;
-	background-color: #fff;
-	font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
 }
 
 .responsive li {
@@ -149,26 +154,45 @@ h3 {
     border: 1px solid black;
 }
 
-footer .lastupdated4, .currentdate4 {
+main figure.myphoto {
+    width: 50% margins: 0 0 0 2%;
+    float: right;
+}
+
+main figure.myphoto img {
+    width: 100%
+}
+
+main figure.myphoto figcaption {
+    text -align: center;
+    font-size: .75 rem;
+}
+
+
+footer .lastupdated4,
+.currentdate4 {
     text-align: center;
     font-size: 0.9rem;
     color: yellow;
     border-bottom: 1px solid yellow;
 }
-.herodiv{
+
+.herodiv {
     position: relative;
     margin: 5px auto;
 }
-.summary-stats{
+
+.summary-stats {
     position: absolute;
     top: 1.1em;
     left: 0.8em;
-    background: radial-gradient(#E3E6EE,#383A3C);
+    background: radial-gradient(#E3E6EE, #383A3C);
     border: 3px solidblack #120D18;
     box-shadow: 0 0 20px #383A3C;
     padding: .7rem;
     opacity: .8;
 }
+
 .stats {
     font-weight: bolder;
     font-style: italic;
