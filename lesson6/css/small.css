@@ -82,8 +82,8 @@ nav {
 }
 
 main figure.myphoto  {
-    width: 90%
-    height:40% 
+    width: 100%
+    height:35% 
 	margins: 0 0 0 2%;
 }
 
@@ -156,14 +156,14 @@ footer .lastupdated4,
 .herodiv {
     margin: 10px auto;
     position: relative;
-    width: 960px;
-    height: 325px;
+    width: 1000px;
+    height: 310px;
 }
 
 picture {
 	display: block;
 	margin-block-start: 1em;
-	margin-bleck-end: 1em;
+	margin-block-end: 1em;
 	margin-inline-start: 40px;
 	margin-inline-end: 40px;
 }
@@ -171,7 +171,7 @@ picture {
 }
 .hero {
     width: 100%;
-    height: 600px;
+    height: 35%;
 }
 
 .summary-stats {
