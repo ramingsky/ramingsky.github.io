@@ -154,6 +154,14 @@ footer .lastupdated4,
     height: 325px;
 }
 
+picture {
+	display: block;
+	margin-block-start: 1em;
+	margin-bleck-end: 1em;
+	margin-inline-start: 40px;
+	margin-inline-end: 40px;
+}
+
 }
 .hero {
     width: 100%;
