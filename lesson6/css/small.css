@@ -82,7 +82,7 @@ nav {
 }
 
 main figure.myphoto  {
-    width: 100%
+    width: 90%
     height:35% 
 	margins: 0 0 0 2%;
 }
@@ -160,7 +160,7 @@ footer .lastupdated4,
     height: 310px;
 }
 
-picture {
+figure {
 	display: block;
 	margin-block-start: 1em;
 	margin-block-end: 1em;
@@ -170,7 +170,7 @@ picture {
 
 }
 .hero {
-    width: 100%;
+    width: 90%;
     height: 35%;
 }
 
