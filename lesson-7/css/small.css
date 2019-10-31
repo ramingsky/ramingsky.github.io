@@ -1,0 +1,114 @@
+html {
+    font-size:4vw;
+    font-family:"Merriweather", serif;
+}
+body{
+    padding:0;
+    margin:0;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:green;
+    color:lightblue
+}
+.head{
+    display:flex;
+    flex-direction:column;
+    margin-left:1rem;
+}
+.head h2{
+    font-size:1.5rem;
+    margin-bottom:-.8rem;
+    color:blue;
+}
+.head p{
+    font-size:.8rem;
+    font-family:"Oswald", sans-serif;
+    color: #f8fc00
+}
+
+nav{
+    background-color:#7f9cc4;
+    text-align:center;
+}
+nav button{
+    margin:.2rem 2%;
+    background-color:transparent;
+    border:none;
+    font-size:1.6rem;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}  
+nav ul li a{
+    padding:.8rem;
+    text-decoration:none;
+    color:black;
+    display:block;
+    border-top:2px solid rgba(0, 0, 0, 0.329);
+}
+nav ul li.active a{
+    color:#f8fc00;
+    background-color:rgba(0,0,0,.4);
+}
+nav ul li a:hover{
+    color:#f8fc00;
+    background-color:rgba(0,0,0,.2);
+}
+.hide{
+    display:none;
+}
+main{
+    padding:0em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#d37e00;
+    
+}
+main section{
+    display: grid;
+    grid-template-columns: 25em;
+    justify-content:center;
+    margin: .5em 0 2em 0;
+}
+.hover{
+    margin-top:2em;
+    padding:0;
+}
+main figure  {
+    height:16em;
+      
+}
+main figure figcaption{
+    text-align:center;
+    font-size:smaller;
+}
+main figure img{
+    height:100%;
+    width:100%;
+    border:3px solid #a9ffcb;
+    padding:0 auto;
+}
+figure img[data-src]{
+    filter:blur(0.2em);
+}
+figure img{
+    width:100%;
+    height:100%;
+    filter:blur(0em);
+    transition: filter 0.4s;
+}
+footer{
+    background-color:#b6eea6;
+    font-size:3vw;
+    padding:.3em;
+    columns: #aa4586;
+    text-align:center;
+}
+
