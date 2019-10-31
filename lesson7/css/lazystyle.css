@@ -4,8 +4,8 @@ h1{
     picture{
         display:block;
         margin:0 auto 10px auto;
-        height:300px;
-        width:400px;
+        height:400px;
+        width:300px;
     }
     picture img[data-src]{
         filter:blur(0.4em);
