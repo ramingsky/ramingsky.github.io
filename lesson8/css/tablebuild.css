@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+    padding-top: 30px;
+    max-width: 500px;
+    margin:0 auto;
+}
+#container{
+    box-shadow: 4px 0px 8px 4px #628ca6;
+}
+h1, h5{
+    text-align: center;
+    background-color: #7fb9c2 ;
+    padding:0;
+    margin: 0;
+}
+h5{
+    padding-top: 10px;
+    height: 30px;
+}
+#headers{
+    color:white;
+    background-color:#628ca6;
+}
+#August, #October, #blackfriday{
+    background-color:#e7ffed ;
+}
+#September, #November, #December{
+    background-color:  #e7f0ed;
+}
+table{
+    font-family:'Ubuntu', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;  
+}
+#November :nth-child(3){
+    color:white;
+    background-color: #628ca6;
+}
