@@ -121,16 +121,15 @@ h1 {
         font-size: 1.5rem;
         color: #120D18;  
         margin: 0 0 0 3px;
-
 }
 section{
     text-align:center
 } 
-footer{
-    background-color:#b6eea6;
-    font-size:3vw;
-    padding:.3em;
-    columns: #aa4586;
-    text-align:center;
-}
 
+footer .lastupdated4,
+.currentdate4 {
+    text-align: center;
+    font-size: 0.9rem;
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
