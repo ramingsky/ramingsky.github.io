@@ -148,7 +148,12 @@ form label.top, form div {
     color: green;
     font-size: .8rem;
 }
-
+form label.top input:required{
+    border-left:red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
 form label.top input, form label.top select {
     display: block;
     font-size: 1rem;
