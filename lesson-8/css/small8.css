@@ -5,35 +5,24 @@ body {
     margin: 0;
 }
 
-header{
-    display:flex;
-    align-items:center;
+
+header {
+    font-family: 'Be Vietnam', sans-serif;
+    padding: 1.5rem;
+    display: flex;
+	align-items:center;
     justify-content:center;
-    background-color:green;
-    color:lightblue
+    background-color: red;
+    color: #fff;
     text-align: center;
+    border-radius: 0.5rem;
+    padding: 10px;
 }
 
 header img {
 	width: 80px;
     height: auto;
 }
-.head{
-    display:flex;
-    flex-direction:column;
-    margin-left:1rem;
-}
-.head h2{
-    font-size:1.5rem;
-    margin-bottom:-.8rem;
-    color:blue;
-}
-.head p{
-    font-size:.8rem;
-    font-family:"Oswald", sans-serif;
-    color: #f8fc00
-}
-
 
 .headings {
 	display: flex;
@@ -120,7 +109,7 @@ nav a:hover {
 }
 
 h3 {
-    background-color: #b6eea6;
+    background-color: red;
     color: #fff;
     border-radius: 0.5rem;
     margin: 0.5rem;
@@ -137,7 +126,7 @@ form fieldset {
 }
 
 form legend {
-    color: grey;
+    color: black;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -145,7 +134,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: green;
+    color: red;
     font-size: .8rem;
 }
 
@@ -164,12 +153,12 @@ form label.top input, form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color: rgb(20, 13, 1);
+    color: black;
 }
 
 form input.submitBtn {
     border: none;
-    background-color: #c0b298;
+    background-color: red;
     color: white;
     border-radius: 1rem;
     padding: .75rem 0;
@@ -179,7 +168,7 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: greenyellow 6px;
+    border-left: red solid 6px;
 }
 
 form label.top input:required:valid {
@@ -191,12 +180,12 @@ form label.top input:required:valid {
     background-color: lightgrey;
     border-radius: 0.5rem;
     margin: 0.5rem;
-    border: 1px solid #aa4586;
+    border: 1px solid black;
     text-align: center;
 }
 
 footer {
-    background-color:#a9ffcb;
+    background-color: red;
     color: #fff;
     text-align: center;
     border-radius: 0.5rem;
