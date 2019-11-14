@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="discription" content="Images of Weather">
+    <title> FoofBuff | The Pizza, Pasta and Burger Center</title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400i%7cOswald:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="../lesson8/image/cloudy.png" class="sun" alt="Sun and Cloud Picture">
+        <section class="head">
+            <h2>FoodBuff! People Who loves to Eat are Good One</h2>
+            <p>A site for foodbuff pizza of franchise galore.</p>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="mainNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">FrachiseGalore</a></li>
+            <li><a href="#">Foodbuff Pizza</a></li>
+            <li><a href="#">Franchise Location</a></li>
+            <li><a href="#">Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <form method="get" action="thanks.html">
+            <h2>Storm Center</h2>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name <input type="text" pattern="[a-zA-Z\s]{5,}" required></label>
+                <label class="top">Email <input type="email" placeholder="username@gmail.com"></label>
+                <label class="top">Phone Number <input type="tel" required></label>
+                <label class="top">Zip Code <input type="number" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date <input type="date" name="stormDate"></label>
+                <label class="top">Storm Type <input list="sTypes" name="stormType"></label>
+                <datalist id="sTypes">
+                    <option>Flash Flood</option>
+                    <option>Hail</option>
+                    <option>Hurricane</option>
+                    <option>Thunderstorm</option>
+                    <option>Tornado</option>
+                    <option>High Wind</option>
+                </datalist>
+                <fieldset>
+                    <label>Storm Severity (1 to 10) <input type="range" name="stormSeverity" id="rating" value="5"
+                            min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                            onchange="adjustRating(this.value)"><span id="ratingvalue"> 5</span></label>
+                </fieldset>
+                <label class="top">Storm Region
+                    <select name="region">
+                        <option value="">Select</option>
+                        <option value="preston"> Preston</option>
+                        <option value="sugarCity"> Soda Springs</option>
+                        <option value="fishHaven"> Fish Haven</option>
+                    </select>
+                </label>
+                <div>Are you in Danger?</div>
+                <label class="sbs"><input type="radio" name="dangerLevel" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="dangerLevel" value="yes"> Maybe</label>
+                <label class="sbs"><input type="radio" name="dangerLevel" value="yes"> No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label><textarea rows="10" name="comment" placeholder="Additional Info here."></textarea></label>
+            </fieldset>
+            <input type="submit" name="sumbit" value="Finish my Weather Form" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <div class="eftcol">
+            &copy; 2019 Rolling Sites by Ramil M. Capangpangan CIT 230-13</p>
+            <dv>
+                - Preston Weather and Climate Site <br>
+                <br>
+        </div>
+        &copy; 2020 | Ramingsky | Cagayan de Oro | <a href="https://www.byui.edu/online">BYUI Online
+            Learning</a>
+        <span class="currentdate8">Current Date: <span id="date8"></span></span>
+        <br><span class="lastupdated8">Updated: <span id="lastmodified8"></span></span>
+    </footer>
+    <script src="js/responsivemenu.js">
+    </script>
+    <script src="js/currentdate.js">
+    </script>
+    <script src="js/lastmodified.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src="js/rating.js"></script>
+</body>
+
+</html>

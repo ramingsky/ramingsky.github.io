@@ -1,0 +1,221 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:green;
+    color:lightblue
+    text-align: center;
+}
+
+header img {
+	width: 80px;
+    height: auto;
+}
+.head{
+    display:flex;
+    flex-direction:column;
+    margin-left:1rem;
+}
+.head h2{
+    font-size:1.5rem;
+    margin-bottom:-.8rem;
+    color:blue;
+}
+.head p{
+    font-size:.8rem;
+    font-family:"Oswald", sans-serif;
+    color: #f8fc00
+}
+
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+main,
+footer {
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    max-width: 1000px;
+}
+
+nav {
+    background-color: #36454f;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav a:hover {
+    background-color: #bbb;
+    color: #36454f;
+}
+
+.navigation .active {
+    color: yellow;
+}
+
+h3 {
+    background-color: #b6eea6;
+    color: #fff;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    background-color: lightgray;
+}
+
+form legend {
+    color: grey;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: green;
+    font-size: .8rem;
+}
+form label.top input:required{
+    border-left:red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px gray;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: white;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: rgb(20, 13, 1);
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #c0b298;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 0;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: greenyellow 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+.thankyousomuch {
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #aa4586;
+    text-align: center;
+}
+
+footer {
+    background-color:#a9ffcb;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer .lastupdated8,
+.currentdate8 {
+    text-align: center;
+    font-size: 0.9rem;
+    color: yellow;
+    border-bottom: 1px solid yellowgreen;
+}

@@ -1,0 +1,28 @@
+@media only  screen and (min-width: 64em){
+    html{
+        font-size:1.5vw;
+    }
+    nav ul li a{
+        padding:.5rem;
+    }
+     footer{
+        max-width: 80%;
+        margin:0 auto;
+    }
+    main section{
+        grid-template-columns: auto auto auto;
+    }
+    main figure{
+        height:10em;
+        width:15em;
+    }
+    .hover{
+        height:100%;
+    }
+    .hover:hover{
+        box-shadow: 0 0 50px #c0b298;
+    }
+    footer{
+        font-size:1.3vw;
+    }
+}
