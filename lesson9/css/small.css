@@ -1,0 +1,142 @@
+html {
+    font-size:4vw;
+    font-family:"Merriweather", serif;
+}
+body{
+    padding:0;
+    margin:0;
+}
+/*---Head section ---*/
+header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#a9ffcb;
+    color:#b6eea6
+}
+.head{
+    display:flex;
+    flex-direction:column;
+    margin-left:1rem;
+}
+.head h2{
+    font-size:1.5rem;
+    margin-bottom:-.8rem;
+    color:rgb(25, 0, 255);
+}
+.head p{
+    font-size:.8rem;
+    font-family:"Oswald", sans-serif;
+    color: yellowgreen
+}
+/*--- Navigation --*/
+nav{
+    background-color:#7f9cc4;
+    text-align:center;
+}
+nav button{
+    margin:.2rem 2%;
+    background-color:transparent;
+    border:none;
+    font-size:1.6rem;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}  
+nav ul li a{
+    padding:.8rem;
+    text-decoration:none;
+    color:black;
+    display:block;
+    border-top:2px solid rgba(0, 0, 0, 0.329);
+}
+nav ul li.active a{
+    color:yellow;
+    background-color:rgba(0,0,0,.4);
+}
+nav ul li a:hover{
+    color:#b6eea6;
+    background-color:rgba(0,0,0,.2);
+}
+.hide{
+    display:none;
+}
+/*-- main body --*/
+main{
+    padding:0em;
+} 
+main #herro picture img{
+    width:100%;
+    margin:.5em 0 .7em 0;
+}
+main h1{
+    text-align:center;
+    color:#d37e00;
+}
+div.cards{
+    display:grid;
+    grid-template-columns:auto;
+}
+div.cards section{
+    width:90%;
+    border:1px solid navy;
+    margin:.2em auto .2em auto;
+    text-align:center;
+    background-color:#7f9cc434;
+}
+div.cards section h2 {
+    color:#c0b298;
+    margin:.3em 0 0 0;  
+}
+div.cards section h4{
+    color:#7f9cc4;
+    margin:.1em 0 0 0;
+    font-size:.9em;
+}
+div.cards section p{
+    margin:.5em;
+    font-size:.9em;
+}
+div.cards section img{
+    max-width:100%;
+}
+.artical{
+    background-color:#7f9cc44b;
+    padding-left:.3em;
+}
+main section.articals h3{
+    color:#b27294;
+    padding-top:.2em;
+    margin-bottom:.2em;
+}
+main section.articals p{
+    padding-bottom:.2em;
+}
+main section.articals #articalimage1{
+    float:right;
+    width:70%;
+    max-width:65%;
+    margin:0 2% 0 .3em;
+}
+main section.articals #articalimage2{
+    float:left;
+    width:70%;
+    max-width:70%;
+    margin:0 .3em 0 0;
+}
+#a2{
+    display:none;
+}
+/*-- Footer --*/    
+footer{
+    background-color:#a9ffcb;
+    font-size:3vw;
+    padding:.3em;
+    color:yellowgreen;
+    text-align:center;
+    margin-top:.4em;
+    clear:both;
+}
+

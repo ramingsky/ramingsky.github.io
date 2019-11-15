@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="discription" content="Sky Outside home page">
+    <title>Home | The Sky Outside</title>
+    <link rel="icon" href="../Images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400i%7cOswald:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="../lesson6/js/navagation.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/weather_icon.png" alt="The Preston Page Logo">
+        <section class="head">
+            <h2>The Preston Weather Page</h2>
+            <p> A great site to navigate and know more about the sky and weather before indulging in any activities.</p>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="mainNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li ><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+      <div id="herro">
+        <picture>
+            <img src="images/herro_image_large.jpg" alt= "Local Hero image" sizes="100vw"
+            srcset="images/herro_image_small.jpg 700w,
+                    images/herro_image_medium.jpg 1000w,
+                    images/herro_image_large.jpg 1500w">
+            </picture> 
+        </div>
+      <h2>Town Information</h2>
+      <div class="cards"></div>
+      <section class="articals">
+        <h2>Articals</h2>
+        <div class="artical" id="a1">
+            <h3>Skey Slopes Open</h3>
+            <p><img src="images/artical1_image.jpg" alt="#" id='articalimage1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt urna metus,
+                sed porta justo vulputate eget. Cras commodo tristique feugiat. Nunc est lorem, egestas sit amet enim at,
+                hendrerit bibendum tellus. Aliquam nec lacinia felis. Integer ullamcorper, risus id luctus eleifend,
+                enim odio vestibulum nulla, et vulputate orci ante quis massa. Morbi sit amet ipsum sit amet elit mattis maximus.
+                Maecenas justo leo, fringilla eu dui a, vestibulum rhoncus nibh. Quisque fermentum interdum ullamcorper.
+                Maecenas ullamcorper lacinia lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta libero at gravida egestas.
+               </p>
+        </div>
+        <div class="artical" id="a2">
+                <h3>Drive Safe</h3>
+                <p><img src="images/artical2_image.jpg" alt="#" id='articalimage2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt urna metus,
+                    sed porta justo vulputate eget. Cras commodo tristique feugiat. Nunc est lorem, egestas sit amet enim at,
+                    hendrerit bibendum tellus. Aliquam nec lacinia felis. Integer ullamcorper, risus id luctus eleifend,
+                    enim odio vestibulum nulla, et vulputate orci ante quis massa. Morbi sit amet ipsum sit amet elit mattis maximus.
+                    Maecenas justo leo, fringilla eu dui a, vestibulum rhoncus nibh. Quisque fermentum interdum ullamcorper.
+                    Maecenas ullamcorper lacinia lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta libero at gravida egestas.
+                   </p>
+            </div>
+      </section>  
+       
+    </main>
+    <footer>
+        <p>&copy; 2019 |Ramingsky | The Preston Weather and Climate Site | <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online
+                Learning Home</a></p>
+        <div id="cDate"></div>
+
+    </footer>
+    <script src="../lesson6/js/current_date.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="../lesson8/js/webfont.js"></script>
+    <script src="js/town.js"></script>
+</body>
+
+</html>

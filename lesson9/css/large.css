@@ -1,0 +1,51 @@
+@media only  screen and (min-width: 64em){
+    html{
+        font-size:1.5vw;
+    }
+
+    nav ul li a{
+        padding:.5rem;
+    }
+    
+    main #herro picture img{
+        max-height:30em;
+        width:100%;  
+    }
+    div.cards{
+        display:grid;
+        grid-gap:.5em;
+        grid-template-columns:repeat(3,minmax(250px,1fr));
+    }
+    div.cards section{
+        display:block;
+    
+    }
+    div.cards section img{
+        max-width:80%;
+    }
+    div.cards section h4{
+        font-size:.7em;
+    }
+    main section.articals #articalimage1{
+        float:right;
+        width:20%;
+        max-width:40%;
+        margin:0 2% 0 .3em;
+    }
+    main section.articals #articalimage2{
+        float:left;
+        width:20%;
+        max-width:40%;
+        margin:0 .3em 0 0;
+    }
+    #a2{
+        display:block;
+    }
+     footer{
+        max-width: 80%;
+        margin:4em auto;
+    }
+    footer{
+        font-size:1.3vw;
+    }
+}
