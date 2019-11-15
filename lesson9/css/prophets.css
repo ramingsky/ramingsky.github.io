@@ -13,7 +13,7 @@ main{
     border: .1em solid #52548f;
 } section img {
     max-width: 75%;
-    box-shadow: 3px 3px 20px 6px rgb(71, 119, 119);
+    box-shadow: 3px 3px 20px 6px #b6b6b6);
     margin: 1em;
 } h1, h2 {
     font-family: 'Roboto Slab', serif;
@@ -23,7 +23,7 @@ main{
     color: #5a5b9f;
     margin: .5rem;
 } p {
-    font-family: 'Trebuchet';
+    font-family: 'Verdana';
     margin: 0;
     padding: .2rem;
 } .grad {
