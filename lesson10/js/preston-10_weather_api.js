@@ -7,6 +7,7 @@ fetch(apiURL)
         var windS = jsObject.wind.speed;
         var windC = windChill(temp,windS);
         document.getElementById('cTemp').textContent= temp;
+        
         document.getElementById('cWindS').textContent = windS;
         document.getElementById('humid').textContent = jsObject.main.humidity + '%';
         document.getElementById('type').textContent= jsObject.weather[0].description;
