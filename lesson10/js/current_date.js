@@ -1,0 +1,9 @@
+var date = new Date();
+var year = date.getFullYear();
+var nDay= date.getDate();
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"] 
+var months =["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var day = days[date.getDay()];
+var month = months[date.getMonth()];
+var fullDate = day + ", " + nDay + " " + month + " " + year + ".";
+document.getElementById("cDate").textContent = fullDate; 
