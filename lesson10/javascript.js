@@ -2,7 +2,7 @@ const key = '';
 if(key=='') document.getElementById('temp').innerHTML = ('Remember to add your api key!');
 
 function weatherBallon( cityID ) {
-	fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID+ '&appid=dbbc85924da6238f183ab3c7e13fc06d' + key)  
+	fetch('https://api.openweathermap.org/data/2.5/weather?id=' + 5604473+ '&appid=dbbc85924da6238f183ab3c7e13fc06d' + key)  
 	.then(function(resp) { return resp.json() }) // Convert data to json
 	.then(function(data) {
 		drawWeather(data);
@@ -31,5 +31,5 @@ function drawWeather( d ) {
   }
 }
 window.onload = function() {
-	weatherBallon( 6167865 );
+	weatherBallon( 5604473 );
 }
