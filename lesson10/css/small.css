@@ -20,14 +20,14 @@ header{
     margin-left:1rem;
 }
 .head h2{
-    font-size:1.5rem;
+    font-size:1.7rem;
     margin-bottom:-.8rem;
-    color:rgb(25, 0, 255);
+    color: navy;
 }
 .head p{
-    font-size:.8rem;
+    font-size:.9rem;
     font-family:"Oswald", sans-serif;
-    color: yellowgreen
+    color: goldenrod;
 }
 /*--- Navigation --*/
 nav{
@@ -165,9 +165,14 @@ section img{
 .sec4 .map{
     display:none;
 }
-
-
-/*-- Footer --*/    
+  h2 {
+    padding: 10px;
+    color: grey;
+    text-align: center;
+    font-family:  'Actor', sans-serif;
+    font-size: 1.4em;
+    line-height: 1em;
+  }
 footer{
     background-color:#a9ffcb;
     font-size:3vw;
