@@ -28,56 +28,57 @@
     <nav>
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="mainNav" class="hide">
-            <li><a href="../lesson9/index.html" > Home</a></li>
-            <li class ="active"><a href="#">Preston</a></li>
+            <li><a href="../lesson9/index.html"> Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
-            <li ><a href="../lesson-7/gallery-7.html">Gallery</a></li>
+            <li><a href="../lesson-7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
-            <h2 class="cityName">Preston Idaho</h2>
-            <!--Hero image and weather Summary-->
-            <section class="sec1">
-                <picture>
-                <img src="images/hero_broke.JPG" alt= "Local Hero image" sizes="100vw"
-                srcset="images/prestonimgsmall.jpg 700w,
+        <h2 class="cityName">Preston Idaho</h2>
+        <!--Hero image and weather Summary-->
+        <section class="sec1">
+            <picture>
+                <img src="images/hero_broke.JPG" alt="Local Hero image" sizes="100vw" srcset="images/prestonimgsmall.jpg 700w,
                     images/prestonimgmedium.JPG 1000w,
                     images/prestonimglarge.JPG 1500w">
-                </picture>
-                <div>
-                    <h2>Weather Summary</h2>
-                    <table>
-                        <tr>
-                            <td>Currently:</td>
-                            <td id="type"></td>
+            </picture>
+            <div>
+                <h2>Weather Summary</h2>
+                <table>
+                    <tr>
+                        <td>Currently:</td>
+                        <td id="type"></td>
 
-                        </tr>
-                        <tr>
-                            <td> Temperature:</td>
-                            <td><span id="cTemp"></span> &#8457;</td>
-                        </tr>
-                        <tr>
-                                <td>Wind Chill:</td>
-                                <td><span id="cWindC"></span> &#8457;</td>
-                            </tr>
-                        <tr>
-                            <td>Wind Speed:</td>
-                            <td><span id="cWindS"></span> mph</td>
-                        </tr>
-                        <tr>
-                            <td>Humidity:</td>
-                            <td id="humid"></td>
-                        </tr>
-                    </table> 
-                </div>
-            </section>
-            <!--5 Day forcast. hidden in small view-->
+                    </tr>
+                    <tr>
+                        <td> Temperature:</td>
+                        <td><span id="cTemp"></span> &#8457;</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Chill:</td>
+                        <td><span id="cWindC"></span> &#8457;</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Speed:</td>
+                        <td><span id="cWindS"></span> mph</td>
+                    </tr>
+                    <tr>
+                        <td>Humidity:</td>
+                        <td id="humid"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <!--5 Day forcast. hidden in small view-->
+        <section class="content">
+            <h2 class="text-addons">5 Day Forecast</h2>
             <section class="sec2">
                 <div>
                     <h3 id='D1'></h3>
-                    <img id="I1" src="" alt="" >
+                    <img id="I1" src="" alt="">
                     <div><span id="d1T"> </span>&#8457;</div>
                 </div>
                 <div class="border">
@@ -99,35 +100,48 @@
                     <h3 id='D5'></h3>
                     <img id="I5" src="" alt="">
                     <div><span id="d5T"> </span>&#8457;</div>
-                </div> 
+                </div>
             </section>
-   
-      <section class="articals">
-        <h2>Articals</h2>
-        <div class="artical" id="a1">
-            <h3>Summer has Come</h3>
-            <p><img src="images/artical1_image.jpg" alt="#" id='articalimage1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt urna metus,
-                sed porta justo vulputate eget. Cras commodo tristique feugiat. Nunc est lorem, egestas sit amet enim at,
-                hendrerit bibendum tellus. Aliquam nec lacinia felis. Integer ullamcorper, risus id luctus eleifend,
-                enim odio vestibulum nulla, et vulputate orci ante quis massa. Morbi sit amet ipsum sit amet elit mattis maximus.
-                Maecenas justo leo, fringilla eu dui a, vestibulum rhoncus nibh. Quisque fermentum interdum ullamcorper.
-                Maecenas ullamcorper lacinia lacinia.</p>
-        </div>
-        <div class="artical" id="a2">
-                <h3>Wash Car or Take a Shower</h3>
-                <p><img src="images/artical2_image.jpg" alt="#" id='articalimage2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt urna metus,
-                    sed porta justo vulputate eget. Cras commodo tristique feugiat. Nunc est lorem, egestas sit amet enim at,
-                    hendrerit bibendum tellus. Aliquam nec lacinia felis. Integer ullamcorper, risus id luctus eleifend,
-                    enim odio vestibulum nulla, et vulputate orci ante quis massa. Morbi sit amet ipsum sit amet elit mattis maximus.
-                    Maecenas justo leo, fringilla eu dui a, vestibulum rhoncus nibh. Quisque fermentum interdum ullamcorper.
-                    Maecenas ullamcorper lacinia lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta libero at gravida egestas.
-                   </p>
-            </div>
-      </section>  
-       
+
+            <section class="articals">
+                <h2>Articals</h2>
+                <div class="artical" id="a1">
+                    <h3>Summer has Come</h3>
+                    <p><img src="images/artical1_image.jpg" alt="#" id='articalimage1'>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Pellentesque tincidunt urna metus,
+                        sed porta justo vulputate eget. Cras commodo tristique feugiat. Nunc est lorem, egestas sit amet
+                        enim at,
+                        hendrerit bibendum tellus. Aliquam nec lacinia felis. Integer ullamcorper, risus id luctus
+                        eleifend,
+                        enim odio vestibulum nulla, et vulputate orci ante quis massa. Morbi sit amet ipsum sit amet
+                        elit mattis maximus.
+                        Maecenas justo leo, fringilla eu dui a, vestibulum rhoncus nibh. Quisque fermentum interdum
+                        ullamcorper.
+                        Maecenas ullamcorper lacinia lacinia.</p>
+                </div>
+                <div class="artical" id="a2">
+                    <h3>Wash Car or Take a Shower</h3>
+                    <p><img src="images/artical2_image.jpg" alt="#" id='articalimage2'>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Pellentesque tincidunt urna metus,
+                        sed porta justo vulputate eget. Cras commodo tristique feugiat. Nunc est lorem, egestas sit amet
+                        enim at,
+                        hendrerit bibendum tellus. Aliquam nec lacinia felis. Integer ullamcorper, risus id luctus
+                        eleifend,
+                        enim odio vestibulum nulla, et vulputate orci ante quis massa. Morbi sit amet ipsum sit amet
+                        elit mattis maximus.
+                        Maecenas justo leo, fringilla eu dui a, vestibulum rhoncus nibh. Quisque fermentum interdum
+                        ullamcorper.
+                        Maecenas ullamcorper lacinia lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Quisque porta libero at gravida egestas.
+                    </p>
+                </div>
+            </section>
+            </section>
+
     </main>
     <footer>
-        <p>&copy; 2019 |Ramingsky | The Preston Weather and Climate Site | <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online
+        <p>&copy; 2019 |Ramingsky | The Preston Weather and Climate Site | <a href="https://www.byui.edu/online"
+                target="_blank">BYU-Idaho Online
                 Learning Home</a></p>
         <div id="cDate"></div>
 
