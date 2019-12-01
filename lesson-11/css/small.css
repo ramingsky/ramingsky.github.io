@@ -1,0 +1,276 @@
+body {
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+}
+
+aside {
+    background-color: rgb(250, 224, 78);
+    font-weight: bold;
+    padding: 1rem;
+    font-size: .75rem;
+
+}
+
+header {
+    background-color: #CEDDF0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+main,
+footer {
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+.logo-image {
+    width: 5rem;
+    height: auto;
+    margin: 2.5%;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner h1 {
+    margin: 0 0 10px 25px;
+}
+
+.motto {
+    font-style: italic;
+    margin-left: 20px;
+    font-size: .9rem;
+    padding-top: .5em;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    color: #5E8E1a;
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    background-color: #2F303F;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    background-color: #5E8E1a;
+}
+
+.active {
+    color: yellow;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: 1.1em;
+}
+
+
+/*Town styles*/
+div.town {
+    display: block;
+    margin: 10px auto;
+    position: relative;
+
+}
+
+.town-img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.weather-summary {
+
+    position: absolute;
+    width: 55%;
+    height: auto;
+    top: 10%;
+    left: 8%;
+    background-color: #744F2D;
+    opacity: .7;
+    border: 1px solid #000;
+    padding-left: 1rem;
+    color: white;
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: bold;
+    box-shadow: 0 0 30px #fff;
+}
+
+/*Forecast Styles*/
+.forecast {
+    display: none;
+}
+
+/*Article Styles*/
+.town-article {
+    border: solid 2px #744F2D;
+    padding: 10px 30px;
+}
+
+article img {
+    display: block;
+    width: 88%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.town-article p {
+    line-height: 1.3em;
+
+
+}
+
+#author {
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+/*Events Styles*/
+.events {
+    display: block;
+    width: 60%;
+    padding: 1em;
+    background-color: #744F2D;
+    opacity: .8;
+    border: 10px solid #000;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: white; 
+    margin: 2em auto;
+    line-height: 1em;
+}
+
+
+
+
+
+/*Contact Info Styles*/
+.contact-info {
+    background-color: #2F303F;
+    color: #fff;
+    padding: 2em;
+    line-height: .8em;
+}
+
+.social-icon {
+    width: 2em;
+    display: inline-block;
+}
+
+.preston-map {
+    display: none;
+}
+
+
+footer {
+    background-color: #CEDDF0;
+    display: block;
+    font-size: 0.8rem;
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Home Page Styles*/
+
+#home {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.headerimg {
+    display: none;
+}
+
+.towndata p {
+    font-size: 14px;
+}
+
+.towndata p:nth-child(2) {
+    font-style: italic;
+    font-weight: 600;
+    font-size: .8rem;
+    margin-top: .1em;
+    color: #744F2D;
+}
+
+.towndata section {
+    margin: 2em;
+}
+
+.towndata h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.towndata {
+    background-color: #2F303F;
+    padding: .3em 0 .3em 0;
+}
+
+.towndata section {
+    background-color: #CEDDF0;
+    padding: 1em;
+}
+
+.towndata img {
+    width: 100%;
+    box-shadow: 0px 0px 10px 2px #000000;
+}
+
+.other img {
+    width: 50%;
+    align-items: center;
+    margin: 0 2em 0 2em;
+}

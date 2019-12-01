@@ -1,0 +1,144 @@
+@media only screen and (min-width: 32.5em) {
+
+    aside {
+        padding: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .logo-image {
+        width: 6rem;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    footer {
+        flex-flow: row;
+    }
+
+    /*Town Styles*/
+    .weather-summary {
+        width: 30%;
+    }
+
+    /*Forecast Styles*/
+    .forecast {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+    table {
+        width: 70%;
+        margin: 20px auto;
+        table-layout: auto;
+    }
+
+    table,
+    td,
+    th {
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: center
+    }
+
+    .forecast-image {
+        width: 3rem;
+        height: auto;
+    }
+
+    .forecast th {
+        background-color: #3A5A05;
+        color: white;
+    }
+
+    .forecast h3 {
+        text-align: center;
+    }
+
+    /*Article styles*/
+    article img {
+        display: block;
+        width: 46%;
+        float: right;
+        padding: 10px;
+    }
+
+    /*Contact styles*/
+
+    .preston-map {
+        display: block;
+        float: right;
+        width: 35%;
+    }
+
+    /*Gallery Styles*/
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    }
+
+    /*Home Page Styles*/
+
+    .headerimg {
+        display: block;
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .towndata section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "content image";
+        margin: 1em;
+
+    }
+
+    .towndata section div {
+        grid-area: content;
+        align-self: center;
+        padding-left: 1em;
+        padding-right: 1em;
+
+    }
+
+    .towndata section img {
+        grid-area: image;
+    }
+
+    .towndata section:nth-child(2) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "image content";
+
+        text-align: right;
+        padding-right: 1em;
+
+    }
+
+
+
+}
