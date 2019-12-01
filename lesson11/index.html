@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="discription" content="Weather Site Fish Haven Idaho ">
+    <title> Soda Springs | Weather Site </title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400i%7cOswald:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo-image" src="images/weather_icon.png" alt="Site Logo">
+        <div class="banner">
+            <h1> South Idaho Weather and Happenings</h1>
+            <div class="motto">"A great site to navigate and know more about the sky in South East Idaho before
+                indulging in any activities thereat."</div>
+        </div>
+    </header>
+    <nav>
+
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda_springs.html">Soda Springs</a></li>
+            <li><a href="fish_haven.html">Fish Haven</a></li>
+            <li><a href="storm-center.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="town">
+            <picture>
+                <source srcset="images/preston750.jpg" media="(min-width: 32.5em) and (max-width: 55em)">
+                <source srcset="images/preston800.jpg" media="(min-width:55.1em)">
+                <img src="images/preston500.jpg" alt="Lake for Fishing" class="headerimg">
+            </picture>
+        </div>
+        <!--<img class="headerimg" src="images/homepage-header.jpg" alt="header img">-->
+
+        <h2>There's No Place Like Home </h2>
+        <p id="home">Perhaps more rewarding for the discerning adventurer are those smaller nooks of ravishing beauty, many reachable only by car or boat or trail. On world maps these gorgeous villages and towns are marked only by the teeniest pinprick, assuming they appear at all. None are secret, exactly, but their very size -- often held in check by their physical remoteness -- can make them tricky to reach all the same. We’re confident, though, that you’ll find ’em absolutely worth the pursuit and perhaps makes them your own.
+        </p>
+        <h2>Town Information</h2>
+        <div class="towndata"> </div>
+        <div class="other">
+            <section class="things">
+                <h2>Things To Do</h2>
+                <img src="images/recreation.jpg" alt="bonding">
+            </section>
+            <section class="stay">
+                <h2>Places to Stay</h2>
+                <img src="images/placestay.jpg" alt="hotel">
+            </section>
+            </div>
+
+    </main>
+    <footer>
+            <p>&copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Ramingsky | Ramil M. Capangpangan | Preston Weather Site |
+                <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+            </p>
+            <div id="currentDate"></div>
+            <p>Weather API <a href="https://openweathermap.org/">openweathermap.org</a></p>
+        
+        </footer>
+    
+        <script src="js/current-date.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/towndata.js"></script>
+</body>
+
+</html>
+
+
+
