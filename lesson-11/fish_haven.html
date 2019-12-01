@@ -9,25 +9,25 @@
     <link rel="icon" href="/images/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400i%7cOswald:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <script src="js/navagation.js"></script>
 </head>
 
 <body>
+
     <header>
-        <img src="images/weather_icon.png" alt="The Preston Page Logo">
-        <section class="head">
-            <h2>Fish Haven Idaho Weather Page</h2>
-            <p> A great site to navigate and know more about the sky in Fish Haven, Idaho before indulging in any
-                activities thereat.</p>
-        </section>
+        <img class="logo-image" src="images/weather_icon.png" alt="Site Logo">
+        <div class="banner">
+            <h1>Fish Haven Idaho Happenings</h1>
+            <div class="motto">"A great site to navigate and know more about the sky in Fish Haven, Idaho before
+                indulging in any
+                activities thereat."</div>
+        </div>
     </header>
     <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="mainNav" class="hide">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="../lesson9/index.html"> Home</a></li>
             <li><a href="../lesson10/preston-10.html">Preston</a></li>
             <li><a href="soda_springs.html"> Soda Springs</a></li>
@@ -83,16 +83,19 @@
 
         <article class="town-article">
             <img src="images/fhtown-art-pic.jpg" alt="Mother and child fishing">
-            <h3>Family Free Fishing Day</h3>
-            <p id="author">By Rasmus Jilligan</p>
-            <p>It's that time of year again as residents of Fish Haven gear up for the annual local Family Free Fishing
-                Day event to be held on April 22 from 7am until 11am. This will be held at Potter's park. Come early to
-                see Mayor Green make the first cast! Free doughnuts and milk will be served. Loads of prizes for both
-                children and adults in all age ranges. Fish and Wildlife will be on hand to give out information and
-                licensing information for the season.
+            <h3>Family Fishing Day</h3>
+            <p id="author">By Ramilsky</p>
+            <p>Fishing can keep you physically fit.
+                    While fishing itself isn't necessarily going to get your heart rate up, many of the best fishing spots 
+                    require a bit of paddling, biking or hiking to reach, all of which have proven cardiovascular benefits. 
+                    "You can make your fishing excursion as physical as you want," Janna Superstein, president of fly fishing 
+                    company Superfly International Inc., tells The Huffington Post. She stresses, however, that you don't need 
+                    to be incredibly active to participate. "Even just getting out there, 
+                    you'll still get the benefits of the outdoors and maybe that's the beginning of a new fit,
+                     healthy lifestyle," she says.
             </p>
             <p>If you are interested in donating to this tax deductable cause, or to volunteer for the event, please
-                contact Frank Smiley at 333-3333. </p>
+                contact one of our volunteer  at 414-10401. </p>
         </article>
 
         <div class="events" id="fish-events"></div>
@@ -119,11 +122,11 @@
         <p>&copy;
             <script>
                 document.write(new Date().getFullYear());
-            </script> Jill Rasmussen | Nevada |
+            </script> Ramingsky | Ramil M. Capangpangan | Preston Weather Site |
             <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
         </p>
         <div id="currentDate"></div>
-        <p>Weather Information Attribution <a href="https://openweathermap.org/">openweathermap.org</a></p>
+        <p>Weather API <a href="https://openweathermap.org/">openweathermap.org</a></p>
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
