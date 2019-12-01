@@ -136,8 +136,8 @@ div.town {
     height: auto;
     top: 10%;
     left: 8%;
-    background-color: #744F2D;
-    opacity: .7;
+    background-color: rgb(145, 61, 120);
+    opacity: 0.4;
     border: 1px solid #000;
     padding-left: 1rem;
     color: white;

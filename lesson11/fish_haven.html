@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="discription" content="Weather Site Fish Haven Idaho ">
+    <title>Fish Haven | Weather Site </title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400i%7cOswald:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo-image" src="images/weather_icon.png" alt="Site Logo">
+        <div class="banner">
+            <h1>Fish Haven Idaho Happenings</h1>
+            <div class="motto">"A great site to navigate and know more about the sky in Fish Haven, Idaho before
+                indulging in any
+                activities thereat."</div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson9/index.html"> Home</a></li>
+            <li><a href="../lesson10/preston-10.html">Preston</a></li>
+            <li><a href="soda_springs.html"> Soda Springs</a></li>
+            <li class="active"><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson-7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>The Town of Fish Haven</h2>
+        <div class="town">
+            <picture>
+                <source srcset="images/fish750.PNG" media="(min-width: 32.5em) and (max-width: 55em)">
+                <source srcset="images/fish800.PNG" media="(min-width:55.1em)">
+                <img src="images/fish500.PNG" alt="Fish Haven Town Picture" class="town-img">
+            </picture>
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="current-cond"></span></p>
+                <p>Temperature: <span id="temperature"></span>&deg;F</p>
+                <p>Humidity: <span id="humidity"></span>&deg;</p>
+                <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                <p>Wind Chill: <span id='chill'></span>&deg;F
+                </p>
+            </section>
+        </div>
+        <div class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <tr>
+                    <th id="wkday1"></th>
+                    <th id="wkday2"></th>
+                    <th id="wkday3"></th>
+                    <th id="wkday4"></th>
+                    <th id="wkday5"></th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td><img src="#" alt="#" id='icon1' class="forecast-image"><br><span id='temp1'></span>&deg;F
+                        </td>
+                        <td><img src="#" alt="#" id='icon2' class="forecast-image"><br><span id='temp2'></span>&deg;F
+                        </td>
+                        <td><img src="#" alt="#" id='icon3' class="forecast-image"><br><span id='temp3'></span>&deg;F
+                        </td>
+                        <td><img src="#" alt="#" id='icon4' class="forecast-image"><br><span id='temp4'></span>&deg;F
+                        </td>
+                        <td><img src="#" alt="#" id='icon5' class="forecast-image"><br><span id='temp5'></span>&deg;F
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <article class="town-article">
+            <img src="images/familyfishing.jpg" alt="siblings fishing">
+            <h3>Family Fishing Day</h3>
+            <p id="author">By Ramilsky</p>
+            <p>Fishing can keep you physically fit.
+                    While fishing itself isn't necessarily going to get your heart rate up, many of the best fishing spots 
+                    require a bit of paddling, biking or hiking to reach, all of which have proven cardiovascular benefits. 
+                    "You can make your fishing excursion as physical as you want," Janna Superstein, president of fly fishing 
+                    company Superfly International Inc., tells The Huffington Post. She stresses, however, that you don't need 
+                    to be incredibly active to participate. "Even just getting out there, 
+                    you'll still get the benefits of the outdoors and maybe that's the beginning of a new fit,
+                     healthy lifestyle," she says.
+            </p>
+            <p>If you are interested in donating to this tax deductable cause, or to volunteer for the event, please
+                contact one of our volunteer  at 414-10401. </p>
+        </article>
+
+        <div class="events" id="fish-events"></div>
+
+        <div class="contact-info">
+            <img src="images/fishhavenmap.jpg" alt="Fish Haven Map" class="preston-map">
+            <h3>Contact Info</h3>
+            <p>Southeast Idaho Happenings<br>
+                69 N. Paradise Parkway Bld. A <br>
+P.O. Box 471 <br>
+Garden City, UT 84028 </p>
+                
+                
+            <br>
+            <p>435-946-2197<br>
+                idahoweatherhappenings.org</p>
+            <br>
+
+            <img src="images/facebook-icon.png" alt="facebook icon" class="social-icon">
+            <img src="images/instagram-icon.gif" alt="instagram icon" class="social-icon">
+            <img src="images/twitter_icon.png" alt="twitter icon" class="social-icon">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Ramingsky | Ramil M. Capangpangan | Preston Weather Site |
+            <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        </p>
+        <div id="currentDate"></div>
+        <p>Weather API <a href="https://openweathermap.org/">openweathermap.org</a></p>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Merriweather', 'Oswald']
+            }
+        });
+    </script>
+    <script src="js/current-date.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/weatherFish.js"></script>
+    <script src="js/forecastFish.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/fishEvents.js"></script>
+
+</body>
+
+</html>
