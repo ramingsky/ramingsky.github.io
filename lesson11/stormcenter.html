@@ -11,98 +11,114 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/storm-center.css">
     <link rel="stylesheet" href="css/large.css">
 
 </head>
 
 <body>
-    <header>
-        <img src="../lesson8/image/cloudy.png" class="sun" alt="Sun and Cloud Picture">
-        <section class="head">
-            <h2>Preston! What is The Weather Outside</h2>
-            <p>A great site to navigate and know more about the sky and indulge in any outdoor activities.</p>
-        </section>
-    </header>
+        <header>
+            <img class="logo-image" src="images/weather_icon.png" alt="Site Logo">
+            <div class="banner">
+                <h1>Idaho! What is The Weather Outside</h1>
+                <div class="motto">"A great site to navigate and know more about the sky and indulge in any outdoor activities.!"</div>
+            </div>
+        </header>
+
+
+
     <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="mainNav" class="hide">
-            <li><a href="../lesson9/index.html">Home</a></li>
-            <li><a href="../lesson10/preston-10.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="../lesson8/stormcenter.html"> Storm Center</a></li>
-            <li><a href="../lesson-7/gallery-7.html"> Gallery</a></li>
-        </ul>
+            <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston.html">Preston</a></li>
+                    <li><a href="soda-springs.html">Soda Springs</a></li>
+                    <li><a href="fish-haven.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
     </nav>
     <main>
-
-        <form method="get" action="thanks.html">
             <h2>Storm Center</h2>
-            <fieldset>
-                <legend>Personal Information</legend>
-                <label class="top">Full Name <input type="text" pattern="[a-zA-Z\s]{5,}" required></label>
-                <label class="top">Email <input type="email" placeholder="username@gmail.com"></label>
-                <label class="top">Phone Number <input type="tel" required></label>
-                <label class="top">Zip Code <input type="number" required></label>
-            </fieldset>
-            <fieldset>
-                <legend>Storm Information</legend>
-                <label class="top">Storm Date <input type="date" name="stormDate"></label>
-                <label class="top">Storm Type <input list="sTypes" name="stormType"></label>
-                <datalist id="sTypes">
-                    <option>Flash Flood</option>
-                    <option>Hail</option>
-                    <option>Hurricane</option>
-                    <option>Thunderstorm</option>
-                    <option>Tornado</option>
-                    <option>High Wind</option>
-                </datalist>
-                <fieldset>
-                    <label>Storm Severity (1 to 10) <input type="range" name="stormSeverity" id="rating" value="5"
-                            min="1" max="10" step="1" oninput="adjustRating(this.value)"
-                            onchange="adjustRating(this.value)"><span id="ratingvalue"> 5</span></label>
-                </fieldset>
-                <label class="top">Storm Region
-                    <select name="region">
-                        <option value="">Select</option>
-                        <option value="preston"> Preston</option>
-                        <option value="sugarCity"> Soda Springs</option>
-                        <option value="fishHaven"> Fish Haven</option>
-                    </select>
-                </label>
-                <div>Are you in Danger?</div>
-                <label class="sbs"><input type="radio" name="dangerLevel" value="yes"> Yes</label>
-                <label class="sbs"><input type="radio" name="dangerLevel" value="yes"> Maybe</label>
-                <label class="sbs"><input type="radio" name="dangerLevel" value="yes"> No</label>
-            </fieldset>
-            <fieldset>
-                <legend>Additional Information</legend>
-                <label><textarea rows="10" name="comment" placeholder="Additional Info here."></textarea></label>
-            </fieldset>
-            <input type="submit" name="sumbit" value="Finish my Weather Form" class="submitBtn">
-        </form>
-    </main>
-    <footer>
-        <div class="eftcol">
-            &copy; 2019 Rolling Sites by Ramil M. Capangpangan CIT 230-13</p>
-            <dv>
-                - Preston Weather and Climate Site <br>
-                <br>
-        </div>
-        &copy; 2020 | Ramingsky | Cagayan de Oro | <a href="https://www.byui.edu/online">BYUI Online
-            Learning</a>
-        <span class="currentdate8">Current Date: <span id="date8"></span></span>
-        <br><span class="lastupdated8">Updated: <span id="lastmodified8"></span></span>
-    </footer>
-    <script src="js/responsivemenu.js">
-    </script>
-    <script src="js/currentdate.js">
-    </script>
-    <script src="js/lastmodified.js">
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfont.js"></script>
-    <script src="js/rating.js"></script>
-</body>
+            <h3>Report a storm or unusual weather event in your area!</h3>
+            <div>
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend>User Information</legend>
+                        <label class="top">Full Name <input type="text" pattern="[A-Za-Z]{5,}" required></label>
+    
+                        <label class="top">Email <input type="email" name="email" placeholder="youremail@gmail.com"></label>
+                        <label class="top">Phone* <input type="tel" name="phone" required></label>
+                        <label class="top">Zip Code* <input type="number" name="zip" required></label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>Storm Information</legend>
+    
+                        <label class="top">Storm Date <input type="date" name="stormDate"></label>
+    
+                        <label class="top">Storm Type
+                            <input list="stormType" name="storm">
+                            <datalist id="stormType">
+                                <option>Blizzard</option>
+                                <option>Flash Flood</option>
+                                <option>Hail</option>
+                                <option>Hurricane</option>
+                                <option>Thunderstorm</option>
+                                <option>Tornado</option>
+                            </datalist>
+                        </label>
+    
+                        <label class="top">Storm Severity (1 to 10): <span id="ratingvalue">5</span>
+                            <input type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                                onchange="adjustRating(this.value)">
+                        </label>
+    
+                        <label class="top">Storm Region
+                            <select name="region">
+                                <option value="">Select Region</option>
+                                <option value="preston">Preston</option>
+                                <option value="soda">Soda Springs</option>
+                                <option value="fish">Fish Haven</option>
+                            </select>
+                        </label>
+    
+                        <div>Are you in danger?</div>
+                        <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                        <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                        <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>Comments</legend>
+                        <label>
+                        <textarea
+                            name="comments">Please include any additional information or comments here...
+                            </textarea></label>
+    
+                    </fieldset>
+    
+                    <input type="submit" name="submit" value="Report Storm" class="submit-button">
+    
+                </form>
+            </div>
+        </main>
+    
+        <footer>
+                <p>&copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> Ramingsky | Ramil M. Capangpangan | Preston Weather Site |
+                        <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+                    </p>
+            <div id="currentDate"></div>
+        </footer>
+        
+        <script src="js/current-date.js"></script>
+        <script src="js/toggleMenu.js"></script>
+        <script src="js/ratingValue.js"></script>
+    </body>
+    
+    </html>
 
-</html>
+

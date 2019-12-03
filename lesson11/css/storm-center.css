@@ -1,0 +1,87 @@
+
+h3 {
+    padding-left: 10px;
+}
+
+fieldset {
+    margin: 2rem 0;
+    border: 1px solid #5E8E1a;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+legend {
+    color: rgb(83, 124, 26);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    
+    
+}
+
+label {
+    display: block;
+    margin: 0 0 .9rem 0;
+}
+
+form label.top, form div {
+   
+    padding-top: 1rem;
+    color: #3A5A05;
+    font-size: .8rem;
+}
+
+.top input,
+.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #CEDDF0;
+}
+
+.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+    }
+
+#ratingvalue {
+    font-size: 1.5rem;
+    color: red;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: .75rem;
+    resize: none;
+    color: rgb(90, 89, 89);
+    border: 1px solid rgb(90, 89, 89);
+
+}
+
+.submit-button {
+    display: block;
+    border: none;
+    background-color: #3A5A05;
+    color: white;
+    border-radius: 1rem;
+   padding: .75rem 1.5rem;
+   margin: auto;
+   margin-bottom: 2rem;
+    width: 96%;
+    max-width: 20rem;
+    }
+
+.top input:required {
+    border-left: red solid 6px;
+}
+
+.top input:required:valid {
+    border-left: #3A5A05 solid 6px;
+}
+
