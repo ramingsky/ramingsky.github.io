@@ -12,17 +12,20 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/gallery.css">
 
 </head>
 
 <body>
-    <header>
-        <img src="../lesson5/img/cloudy.png" class="sun" alt="Sun and Cloud Picture">
-        <section class="head">
-            <h2>Preston! What is The Weather Outside</h2>
-            <p>A great site to navigate and know more about the sky and indulge in any outdoor activities.</p>
-        </section>
-    </header>
+        <header>
+                <img class="logo-image" src="images/weather_icon.png" alt="Sun and Cloud Logo">
+                <div class="banner">
+                    <h1> Idaho! What is The Weather Outside</h1>
+                    <div class="motto">"A great site to navigate and know more about the sky and indulge in any outdoor activities."</div>
+                </div>
+            </header>
+
+
     <nav>
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="mainNav" class="hide">
@@ -35,106 +38,70 @@
         </ul>
     </nav>
     <main>
-        <section>
-            <div class="hover">
+            <h2>Weather Gallery</h2>
+            <div class="container">
                 <figure>
-
-                    <img src="images/placeholder-image.jpg" data-src="images/weather_cloudy.jpg" alt="Cloudy Skies">
-
-                    <figcaption>What a Beautiful clouds</figcaption>
+                    <img src="images/placeholder500.gif" data-src="images/autumn.jpg" alt="autumn img">
+                    <figcaption>Colorful autumn leaves</figcaption>
+                </figure>
+    
+                <figure>
+                    <img src="images/placeholder500.gif" data-src="images/blizzard.jpg" alt="blizzard img">
+                    <figcaption>Blizzard at night</figcaption>
+                </figure>
+    
+                <figure>
+                    <img src="images/placeholder500.gif" data-src="images/cloudy.jpg" alt="cloudy img">
+                    <figcaption>Sun rays breaking through the clouds</figcaption>
+                </figure>
+    
+                <figure>
+                    <img src="images/placeholder500.gif" data-src="images/lightening.jpg" alt="lightening img">
+                    <figcaption>A lightening storm in the foothills</figcaption>
+                </figure>
+    
+                <figure>
+                    <img src="images/placeholder500.gif" data-src="images/rainbow.jpg" alt="rainbow img">
+                    <figcaption>A double rainbow appears after a rainshower</figcaption>
+                </figure>
+    
+                <figure>
+                    <img src="images/placeholder500.gif" data-src="images/sunny.jpg" alt="sunny img">
+                    <figcaption>A field of sunflowers on a clear, sunny day</figcaption>
+                </figure>
+    
+                <figure>
+                    <img src="images/placeholder500.gif" data-src="images/tornado.jpg" alt="tornado img">
+                    <figcaption>A tornado threatens nearby town</figcaption>
+                </figure>
+    
+                <figure>
+                    <img src="images/placeholder500.gif" data-src="images/windy.jpg" alt="windy img">
+                    <figcaption>Field grass on a windy day</figcaption>
+                </figure>
+    
+                <figure>
+                    <img src="images/placeholder500.gif" data-src="images/winter.jpg" alt="winter">
+                    <figcaption>Frosted trees on riverbank on a winter day</figcaption>
                 </figure>
             </div>
-            <div class="hover">
-                <figure>
-
-                    <img src="images/placeholder-image.jpg" data-src="images/weather_lightning.jpg" alt="Above Lighning">
-
-                    <figcaption>During Spectacular Lighning</figcaption>
-                </figure>
-            </div>
-            <div class="hover">
-                <figure>
-
-                    <img src="images/placeholder-image.jpg" data-src="images/weather_rain.jpg" alt="Rainy Days">
-
-                    <figcaption>A Rain over the Mountains</figcaption>
-                </figure>
-            </div>
-            <div class="hover">
-                <figure>
-
-                    <img src="images/placeholder-image.jpg" data-src="images/weather_rain2.jpg" alt="And Mondays">
-
-                    <figcaption>Rain in an open field</figcaption>
-                </figure>
-            </div>
-            <div class="hover">
-                <figure>
-
-                    <img src="images/placeholder-image.jpg" data-src="images/weather_snowyday.jpg" alt="temple">
-
-                    <figcaption>Frozen in the Forest</figcaption>
-                </figure>
-            </div>
-            <div class="hover">
-                <figure>
-
-                    <img src="images/placeholder-image.jpg" data-src="images/weather_sunnyday.jpg" alt="temple">
-
-                    <figcaption>A Clear Sunny Day</figcaption>
-                </figure>
-            </div>
-            <div class="hover">
-                <figure>
-
-                    <img src="images/placeholder-image.jpg" data-src="images/weather_sunset.jpg" alt="temple">
-
-                    <figcaption>What an Amazing Sunset</figcaption>
-                </figure>
-            </div>
-            <div class="hover">
-                <figure>
-
-                    <img src="images/placeholder-image.jpg" data-src="images/weather_tornado.jpg" alt="temple">
-
-                    <figcaption>A Tornado</figcaption>
-                </figure>
-            </div>
-            <div class="hover">
-                <figure>
-
-                    <img src="images/placeholder-image.jpg" data-src="images/weather_tornado2.jpg" alt="temple">
-
-                    <figcaption>Another Day for Tornado</figcaption>
-                </figure>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="eftcol">
-            &copy; 2019 Rolling Sites by Ramil M. Capangpangan CIT 230-13</p>
-            <dv>
-                - Preston Weather and Climate Site <br>
-                <br>
-        </div>
-        &copy; 2020 | Ramingsky | Cagayan de Oro | <a href="https://www.byui.edu/online">BYUI Online
-            Learning</a>
-        <span class="currentdate4">Current Date: <span id="date4"></span></span>
-        <br><span class="lastupdated">Updated: <span id="lastmodified"></span></span>
-    </footer>
-    <script src="js/responsivemenu.js">
-    </script>
-    <script src="js/currentdate.js">
-    </script>
-    <script src="js/lastmodified.js">
-    </script>
-    <script src="lazy.js"></script>
-    </idly>
-    </div>
-    </footer>
-    </section>
-    </main>
-    </div>
-</body>
-
-</html>
+    
+        </main>
+        <footer>
+            <p>&copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>   Ramingsky | Cagayan de Oro City |
+                <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+            </p>
+            <div id="currentDate"></div>
+    
+        </footer>
+    
+    
+        <script src="js/current-date.js"></script>
+        <script src="js/toggleMenu.js"></script>
+        <script src="js/lazyLoad.js"></script>
+    </body>
+    
+    </html>
