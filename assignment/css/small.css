@@ -1,0 +1,380 @@
+header {
+    background-color: #c4f8ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: 'Dancing Script',
+        cursive;
+    margin-left: 2%;
+}
+
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    size: 16px;
+}
+
+main,
+footer {
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+.logo-image {
+    width: 10em;
+    height: auto;
+    margin: 2.5%;
+}
+
+
+
+h1 {
+    font-size: 2rem;
+    color: #5a2666;
+}
+
+h2 {
+    color: #fe5f33;
+    font-size: 2rem;
+
+}
+
+h3 {
+    color: #fca890;
+    font-size: 1.5rem;
+
+}
+
+/*Navigaion Styles*/
+nav {
+    background-color: #2F303F;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+#active {
+    color: #fca890;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li,
+.dropdown {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.dropdown .dropbtn,
+.dropbtn a {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #2F303F;
+    font-family: inherit;
+    margin: 0;
+    width: 20%;
+    text-decoration: none;
+}
+
+nav a:hover,
+.dropdown:hover,
+.dropbtn:hover {
+    background-color: #984cac;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2F303F;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #984cac;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    line-height: 1.1em;
+}
+
+div.home {
+    display: block;
+    margin: 10px auto;
+    margin: 2%;
+
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Button styles*/
+.button {
+    background-color: #5a2666;
+    border: none;
+    color: white;
+    padding: .75rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+/*Home page article styles*/
+.home-temple {
+    border: solid 2px #744F2D;
+    padding: 10px 30px;
+}
+
+article img {
+    display: block;
+    width: 88%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Contact Info Styles*/
+.contact-info {
+    background-color: #2F303F;
+    color: #fff;
+    padding: 3%;
+    line-height: .8em;
+}
+
+.social-icon {
+    width: 2em;
+    display: inline-block;
+}
+
+.office {
+    display: none;
+}
+
+
+footer {
+    background-color: #c4f8ed;
+    display: block;
+    font-size: 0.8rem;
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Temple info page styles*/
+.temple-info img {
+    display: block;
+    width: 100%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 50px #333;
+}
+
+.weather-summary {
+    display: block;
+    width: 88%;
+    background-color: #2F303F;
+    padding: .5rem 2rem;
+    color: white;
+    line-height: 1em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.temple-info {
+    margin: 2%;
+}
+
+.closures {
+    margin-bottom: 1rem;
+}
+
+/*Reception Page Styles*/
+.reception img {
+    width: 100%;
+    padding: 2%;
+}
+
+.reception p {
+    padding: 2%;
+}
+
+/*Temple Missionaries Page Styles*/
+
+.missionaries img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1rem;
+}
+
+.missionaries form {
+    background-color: #2F303F;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.missionaries .top {
+    color: white;
+    font-size: 14px;
+}
+
+.missionaries fieldset {
+    margin: 2rem 0;
+    border: 2px solid #fca890;
+    border-radius: 10px;
+    padding: 1% 5%;
+
+}
+
+.missionaries .submit-button {
+    background-color: #fca890;
+    color: black;
+    font-weight: bold;
+}
+
+.missionaries h3 {
+    font-size: 2rem;
+}
+
+.response h1,
+.response p {
+    text-align: center;
+}
+
+.response h1 {
+    margin-top: 50%;
+}
+
+/*Services page styles*/
+.services img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1rem;
+}
+
+.services p,
+.services a {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+thead {
+    font-weight: bold;
+
+}
+
+/*Contact Page Styles*/
+.mapouter {
+    display: block;
+    width: 100%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact img {
+    width: 40%;
+    padding-bottom: 2rem;
+}
+
+.contact p, .contact h4 {
+    margin-left: 2%;
+}
+
+.contact-page-form {
+    background-color: #2F303F;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-page-form .top {
+      color: white;
+      font-size: 14px;
+  }
+
+  .contact-page-form fieldset {
+      margin: 2rem 0;
+      border: 2px solid #fca890;
+      border-radius: 10px;
+      padding: 1% 5%;
+       }
+
+       
+
+  .contact-page-form .submit-button {
+      background-color: #fca890;
+      color: black;
+      font-weight: bold;
+  }
+
+  .contact-page-form h3 {
+      font-size: 2rem;
+  }
+
+  dt {
+      
+      text-decoration: underline;
+  }

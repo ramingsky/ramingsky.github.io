@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temple Inn & Suites</title>
+    <meta name="description"
+        content="Temple Inn & Suites is a hotel chain that manages reservations and wedding reception accomodations. We specialize in catering to the needs of visitors to the temples of The Church of Jesus Christ of Latter-day Saints">
+    <link
+        href="https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700|Roboto:300,400,400i,500,700,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/reservations.css">
+    <link rel="stylesheet" href="css/temples.css">
+    <link rel="shortcut icon" href="images/temple-favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img class="logo-image" src="images/temple-logo.png" alt="Temple Inn & Suites Logo">
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="services.html">Services</a></button>
+                <div class="dropdown-content">
+                    <a href="reception.html">Receptions</a>
+                    <a href="temple-missionary.html">Temple Missionaries</a></div>
+            </div>
+            <li><a href="contact.html" id="active">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="contact">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="350" height="250" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=4800%20Montgomery%20Ln%20%23300%20%20%20Bethesda%2C%20MD%2020814&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+            </div>
+
+            <h1>Contact Us!</h1>
+             
+            
+            <h4>Our coorperate offices are located at:</h4>
+            
+            <p>Temple Inn & Suites<br>
+                4800 Montgomery Ln #300<br>
+                Bethesda, MD 20814</p>
+
+            <br>
+            <p>999-999-9999<br>
+                templeinn.com</p>                
+           </div>
+<div class="contact-page-form">
+    <form method="get" action="response.html">
+        <h3>Have more questions? </h3>
+        <fieldset>
+
+            <label class="top">Full Name <input type="text" pattern="[A-Za-Z]{5,}" required></label>
+            <label class="top">Email <input type="email" name="email" placeholder="youremail@gmail.com"
+                    required></label>
+             <fieldset>
+                 <legend>Message</legend>
+                 <label>
+                     <textarea name="comments">
+                        </textarea></label>
+
+             </fieldset>
+
+            
+        </fieldset>
+        <input type="submit" name="submit" value="Contact Us" class="submit-button">
+
+    </form>
+</div>
+         
+
+
+     
+    </main>
+
+    <footer>
+        <p>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Jill Rasmussen | Nevada |
+            <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        </p>
+        <div id="currentDate"></div>
+        <a href="resources.html">Resources</a>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Dancing Script', 'Roboto']
+            }
+        });
+    </script>
+    <script src="js/current-date.js"></script>
+    <script src="js/toggleMenu.js"></script>
+
+
+</body>
+
+</html>

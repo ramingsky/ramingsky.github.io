@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temple Inn & Suites</title>
+    <meta name="description"
+        content="Temple Inn & Suites is a hotel chain that manages reservations and wedding reception accomodations. We specialize in catering to the needs of visitors to the temples of The Church of Jesus Christ of Latter-day Saints">
+    <link
+        href="https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700|Roboto:300,400,400i,500,700,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+   <link rel="stylesheet" href="css/small.css">
+   <link rel="stylesheet" href="css/medium.css">
+   <link rel="stylesheet" href="css/large.css">
+   <link rel="stylesheet" href="css/reservations.css">
+   <link rel="stylesheet" href="css/temples.css">
+    
+    <link rel="shortcut icon" href="images/temple-favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img class="logo-image" src="images/temple-logo.png" alt="Temple Inn & Suites Logo">
+    </header>
+
+     <nav>
+         <ul class="navigation">
+             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="temples.html">Temples</a></li>
+             <li><a href="reservations.html" id="active">Reservations</a></li>
+             <div class="dropdown">
+                 <button class="dropbtn" ><a href="services.html">Services</a></button>
+                 <div class="dropdown-content">
+                     <a href="reception.html">Receptions</a>
+                     <a href="temple-missionary.html">Temple Missionaries</a></div>
+             </div>
+             <li><a href="contact.html">Contact Us</a></li>
+         </ul>
+     </nav>
+    <main class="reservations">
+        
+        <img src="images/room.jpg" alt="hotel room image">
+        <h1>Our rooms</h1>
+        <ul>
+            <thead>Free Amenities included with every room:</thead>
+            <li>Breakfast</li>
+            <li>Exercise/workout room</li>
+            <li>Indoor Pool</li>
+            <li>WiFi high-speed internet access</li>
+            <li>Smart Tv</li>
+            <li>Parking</li>
+            <li>Temple Shuttle</li>
+            <li>Family history consultation and family ordinance card service</li>
+
+         <div>
+             <form method="get" action="confirm.html">
+                 <fieldset>
+                     <legend>Your Information</legend>
+                     <label class="top">Full Name <input type="text" pattern="[A-Za-Z]{5,}" required></label>
+
+                     <label class="top">Email <input type="email" name="email"
+                             placeholder="youremail@gmail.com"></label>
+                     <label class="top">Phone <input type="tel" name="phone" required></label>
+                     <label class="top">Home State/Country <input type="text" name="state" required></label>
+                     <label class="top">Zip Code <input type="number" name="zip" required></label>
+                 </fieldset>
+
+                 <fieldset>
+                     <legend>Your Stay</legend>
+
+                     <label class="top">Check In <input type="date" name="checkin"></label>
+                     <label class="top">Check Out <input type="date" name="checkout"></label>
+
+                     <label class="top">Room Type
+                         <input list="roomType" name="room">
+                         <datalist id="roomType">
+                             <option>Standard Queen</option>
+                             <option>Standard King</option>
+                             <option>Two Doubles</option>
+                             <option>Queen Suite</option>
+                             <option>Two Doubles Suite</option>
+                             <option>Two Room Suite</option>
+                         </datalist>
+                     </label>
+                     <label class="top">Number of rooms <input type="number" name="roomNum"></label>
+
+                    
+                     <label class="top">Location
+                         <select name="region">
+                             <option value="">Select Location</option>
+                             <option value="vegas">Las Vegas</option>
+                             <option value="stgeorge">St. George</option>
+                             <option value="meridian">Meridian</option>
+                             <option value="sandiego">San Diego</option>
+                         </select>
+                     </label>
+
+                    
+                 </fieldset>
+
+                 <fieldset>
+                     <legend>Comments</legend>
+                     <label>
+                         <textarea name="comments">Please include any special accomodations or comments here...
+                        </textarea></label>
+
+                 </fieldset>
+
+                 <input type="submit" name="submit" value="Reserve your room" class="submit-button">
+
+             </form>
+         </div>
+         </main>
+
+
+
+        <footer>
+            <p>&copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Jill Rasmussen | Nevada |
+                <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+            </p>
+            <div id="currentDate"></div>
+            <a href="resources.html">Resources</a>
+
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Dancing Script', 'Roboto']
+                }
+            });
+        </script>
+        <script src="js/current-date.js"></script>
+        <script src="js/toggleMenu.js"></script>
+
+
+</body>
+
+</html>
