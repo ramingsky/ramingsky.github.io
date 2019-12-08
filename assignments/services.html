@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temple Inn & Suites</title>
+    <meta name="description"
+        content="Temple Inn & Suites is a hotel chain that manages reservations and wedding reception accomodations. We specialize in catering to the needs of visitors to the temples of The Church of Jesus Christ of Latter-day Saints">
+    <link
+        href="https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700|Roboto:300,400,400i,500,700,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/reservations.css">
+    <link rel="stylesheet" href="css/temples.css">
+    <link rel="shortcut icon" href="images/temple-favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img class="logo-image" src="images/temple-logo.png" alt="Temple Inn & Suites Logo">
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <div class="dropdown">
+                <button class="dropbtn" id="active"><a href="services.html">Services</a></button>
+                <div class="dropdown-content">
+                    <a href="reception.html">Receptions</a>
+                    <a href="temple-missionary.html">Temple Missionaries</a></div>
+            </div>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main class="services">
+        <img src="images/childcare.jpg" alt="childcare center image">
+        <h1>Specialized Services</h1>
+        <p>We are much more than just a hotel chain! With locations near a temple, we offer many services to temple
+            patrons!</p>
+        <h2>Free and low-cost services for temple patrons</h2>
+        <ul>
+            <li>Free access to changing rooms and bathroom facilities for patrons who have traveled long distance</li>
+            <li>A playroom and low-cost, short-term childcare</li>
+            <li>Temple history themed reception and sitting area</li>
+            <li>A family search center that supports family search and ordinance work</li>
+            <li>Access to our beautiful grounds and covered picnic area</li>
+        </ul>
+
+        <h2>Wedding reception services</h2>
+        <p>Choose from 3 reception halls and an outdoor area to customize your perfect day! With a simple catering menu
+            and kitchen access for food preparation and serving, if you prefer to do it yourself!</p>
+        <a href="reception.html">Click here for more information</a>
+        <h2>Full-Time Temple Missionary Services</h2>
+        <p>Full-time temple missionaries are eligable to receive discounted rates for long-term stays in our comfortable
+            suites featuring a kitchenette.</p>
+        <a href="temple-missionary.html">Click here for more information</a>
+
+        <footer>
+            <p>&copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Ramil  M. Capangpangan | Idaho |
+                <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+            </p>
+            <div id="currentDate"></div>
+            <a href="resources.html">Resources</a>
+
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Dancing Script', 'Roboto']
+                }
+            });
+        </script>
+        <script src="js/current-date.js"></script>
+        <script src="js/toggleMenu.js"></script>
+
+
+</body>
+
+</html>

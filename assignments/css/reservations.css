@@ -1,0 +1,100 @@
+div form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.reservations img {
+   width: 100%;
+   height: auto;
+   margin-right: auto;
+   margin-left: auto;
+   padding-top: 1rem;
+}
+
+fieldset {
+  margin: 2rem 0;
+  border: 1px solid #fca890;
+  border-radius: 10px;
+  padding: 1% 5%;
+  
+}
+
+legend {
+  color: #fe5f33;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+
+
+}
+
+label {
+  display: block;
+  margin: 0 0 .9rem 0;
+  
+}
+
+form label.top,
+form div {
+
+  padding-top: 1rem;
+  color: black;
+  font-size: .8rem;
+}
+
+.top input,
+.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #CEDDF0;
+}
+
+.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: .75rem;
+  resize: none;
+  color: rgb(90, 89, 89);
+  border: 1px solid rgb(90, 89, 89);
+
+}
+
+.submit-button {
+  display: block;
+  border: none;
+  background-color: #5a2666;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 96%;
+  max-width: 20rem;
+}
+
+.top input:required {
+  border-left: #984cac solid 6px;
+}
+
+.top input:required:valid {
+  border-left: #20eec1 solid 6px;
+}
+
+.confirm {
+  max-width: 200%;
+  padding-top: 3em;
+  margin: 0 auto;
+}

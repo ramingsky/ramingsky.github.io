@@ -1,0 +1,102 @@
+@media only screen and (min-width: 32.5em) {
+
+
+    .logo-image {
+        width: 15em;
+        height: auto;
+    }
+    
+    h1 {
+        font-size: 2.3rem;
+    }
+    
+    .navigation {
+        display: flex;
+    }
+    
+    .navigation li:first-child {
+        display: none;
+    }
+    
+    .navigation li, .dropdown {
+        display: block;
+        flex: 1 1 100%;
+    }
+    
+    nav a {
+        font-size: 1rem;
+    }
+    
+    /*Article styles*/
+    article img {
+        display: block;
+        width: 46%;
+        float: right;
+        padding: 10px;
+    }
+    
+    /*Temple Page Styles*/
+    .temples-container {
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    }
+    .temples-container figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
+    
+    .weather-summary {
+    display: block;
+    width: 46%;
+    float: right;
+    padding-left: 3%;
+    font-size: 14px;
+    }
+    
+    .closures {
+        display: block;
+        width: 46%;
+        float: right;
+        padding-left: 3%;
+        padding-bottom: 3%;
+        font-size: 14px;
+        border: solid 15px #5a2666;
+    }
+    
+    /*Contact Info Styles*/
+     .office {
+         display: block;
+         float: right;
+         width: 55%;
+    
+     }
+    footer {
+        flex-flow: row;
+    }
+    
+    /*Contact Page Styles*/
+    
+    .mapouter {
+        
+        text-align: right;
+        height: 250px;
+        width: 350px;
+        margin-left: 2%;
+    }
+    
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 250px;
+        width: 350px;
+    }
+    .mapouter {
+    
+       
+        width: 46%;
+        float: right;
+        padding: 10px;
+    }
+    .contact h1, .contact h4, .contact p {
+        clear: left;
+    }
+    
+    }

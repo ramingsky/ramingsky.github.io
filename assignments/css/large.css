@@ -1,0 +1,12 @@
+@media only screen and (min-width: 56em) {
+ 
+    h1 {
+        font-size: 3rem;
+    }
+   
+    .logo-image {
+        width: 25em;
+        height: auto;
+    }
+   
+   } 
