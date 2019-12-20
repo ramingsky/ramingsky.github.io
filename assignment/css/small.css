@@ -10,13 +10,13 @@ header {
 h1,
 h2,
 h3 {
-    font-family: 'Dancing Script',
+    font-family: 'kaushan Script',
         cursive;
     margin-left: 2%;
 }
 
 body {
-    font-family: 'Roboto',
+    font-family: 'Roboto Slab Slab',
         sans-serif;
     size: 16px;
 }
@@ -36,25 +36,25 @@ footer {
 
 
 h1 {
-    font-size: 2rem;
-    color: #5a2666;
+    font-size: 3.6rem;
+    color: #aa4586;
 }
 
 h2 {
-    color: #fe5f33;
+    color: #c0b298;
     font-size: 2rem;
 
 }
 
 h3 {
-    color: #fca890;
+    color: #FFFF00;
     font-size: 1.5rem;
 
 }
 
 /*Navigaion Styles*/
 nav {
-    background-color: #2F303F;
+    background-color: #b6eea6;
     text-align: center;
     box-shadow: 0 2px 15px gray;
     overflow: hidden;
@@ -71,13 +71,13 @@ nav li a {
     display: block;
     color: #fff;
     text-align: center;
-    padding: 0.75rem;
+    padding: 0.5rem;
     text-decoration: none;
     font-size: 0.95rem;
 }
 
 #active {
-    color: #fca890;
+    color: #b27294;
 }
 
 .navigation li:first-child {
@@ -280,14 +280,14 @@ footer {
 
 .missionaries fieldset {
     margin: 2rem 0;
-    border: 2px solid #fca890;
+    border: 2px solid #FFFF00;
     border-radius: 10px;
     padding: 1% 5%;
 
 }
 
 .missionaries .submit-button {
-    background-color: #fca890;
+    background-color: #FFFF00;
     color: black;
     font-weight: bold;
 }
@@ -357,7 +357,7 @@ thead {
 
   .contact-page-form fieldset {
       margin: 2rem 0;
-      border: 2px solid #fca890;
+      border: 2px solid #FFFF00;
       border-radius: 10px;
       padding: 1% 5%;
        }
@@ -365,7 +365,7 @@ thead {
        
 
   .contact-page-form .submit-button {
-      background-color: #fca890;
+      background-color: #FFFF00;
       color: black;
       font-weight: bold;
   }
