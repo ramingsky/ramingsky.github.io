@@ -16,7 +16,7 @@ h3 {
 }
 
 body {
-    font-family: 'Roboto Slab Slab',
+    font-family: 'Roboto Slab',
         sans-serif;
     size: 16px;
 }
@@ -73,7 +73,7 @@ nav li a {
     text-align: center;
     padding: 0.5rem;
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 1.20rem;
 }
 
 #active {
