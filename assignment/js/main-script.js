@@ -41,7 +41,7 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-var requestURL = 'https://kaqurei.github.io/assignments/term-project/json/templedata.json';
+var requestURL = 'https://ramingsky.github.io/assignment//term-project/json/templedata.json';
 var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
