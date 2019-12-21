@@ -52,22 +52,4 @@ request.onload = function () {
     templeFeatured(templeData);
 }
 
-//* FEATURED TEMPLE
 
-function templeFeatured(jsonObj) {
-    var temples = jsonObj['temples']
-    var i = 0;
-    var featured = temples[i].featured;
-
-    for (i = 0; i < temples.length; i++) {
-        var featured = temples[i].featured;
-        if (featured == "Yes") {
-            var image = "<source srcset='" + temples[i].imageSrcSmall + "' media='(max-width: 600px)'> <img src='" + temples[i].imageSrc + "' class='featured' alt='" + temples[i].imageAlt + "'>";
-            document.getElementById("featuredImage").innerHTML = image;
-        var title = temples[i].name;
-        document.getElementById("featuredTitle").innerHTML = title;
-        var description = temples[i].description;
-        document.getElementById("featuredDescription").innerHTML = description;
-        }
-    }
-}
