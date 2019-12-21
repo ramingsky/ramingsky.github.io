@@ -17,12 +17,11 @@
 
 <body>
     <header>
-            <img src="images/temple-logo.png" alt="Temple Inn & Suites Logo" class="logo"><h1>Temple Inn & Suites</h1>
+            <img src="images/temple-logo.png" alt="Temple Inn & Suites Logo" class="logo">
             <h1>Temple Inn & Suites</h1>
     </header>
 
     <nav>
-        <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
         <ul class="navigation">
           <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
           <li><a href="index.html" id="active">Home</a></li>
@@ -110,13 +109,18 @@
         </section>
     </main>
     <footer>
-        &copy;2019 Temple Inn & Suites | <a href="contact.html">Contact Us</a> | <a href="policies.html">Guest
-            Policies</a>
-        <p class="sub-footer"><a href="attributions.html">Attributions</a> | <a
-                href="https://kaqurei.github.io/">Destyni Shirley</a></p>
-        <script src="js/menu-script.js"></script>
+        <p>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Ramil M. Capangpangan | Idaho |
+            <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        </p>
+        <div id="currentDate"></div>
+        <a href="resources.html">Resources</a>
         <script src="js/jordan-river-data.js"></script>
+
     </footer>
-</body>
+   
+   </body>
 
 </html>
