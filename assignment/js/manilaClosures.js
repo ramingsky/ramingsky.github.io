@@ -1,4 +1,4 @@
-const requestJson = 'https://https://ramingsky.github.io/assignment/json/temples.json';
+const requestJson = 'https://ramingsky.github.io/assignment/temples.json';
 
 fetch(requestJson)
     .then(function (response) {
