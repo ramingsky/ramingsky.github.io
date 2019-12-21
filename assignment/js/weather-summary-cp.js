@@ -1,4 +1,4 @@
-const currentURL = "https://api.openweathermap.org/data/2.5/weather?zip=6000&units=imperial&APPID=dbbc85924da6238f183ab3c7e13fc06d"
+const currentURL = "https://api.openweathermap.org/data/2.5/weather?zip=1717512&units=imperial&APPID=dbbc85924da6238f183ab3c7e13fc06d"
 
 fetch(currentURL)
     .then((response) => response.json())
