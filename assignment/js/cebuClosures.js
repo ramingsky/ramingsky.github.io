@@ -1,4 +1,4 @@
-const requestJson = 'https://jillraz99.github.io/assignments/temple-project/temples.json';
+const requestJson = 'https://https://ramingsky.github.io/assignment/json/temples.json';
 
 fetch(requestJson)
     .then(function (response) {
@@ -10,6 +10,6 @@ fetch(requestJson)
             const temples = jsonObject['temples'];
             for (let i = 0; i < temples.length; i++) {
                          
-            document.getElementById('vegas-closures').innerHTML += temples[0].closures[i] + "<br>";
+            document.getElementById('cebu-closures').innerHTML += temples[0].closures[i] + "<br>";
         }
     })

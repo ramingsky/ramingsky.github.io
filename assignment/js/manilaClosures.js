@@ -10,6 +10,6 @@ fetch(requestJson)
         const temples = jsonObject['temples'];
         for (let i = 0; i < temples.length; i++) {
 
-            document.getElementById('sandiego-closures').innerHTML += temples[3].closures[i] + "<br>";
+            document.getElementById('manila-closures').innerHTML += temples[3].closures[i] + "<br>";
         }
     })
