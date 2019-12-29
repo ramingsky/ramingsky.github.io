@@ -524,7 +524,7 @@ main figcaption {
 }
 
 footer {
-    background-color: #e4c517;
+    background-color: $primaryColor;
     text-align: center;
     padding: 1rem 2%;
 }
