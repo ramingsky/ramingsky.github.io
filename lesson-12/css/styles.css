@@ -453,7 +453,7 @@ body {
 }
 
 header {
-    background-color: #b6eea6;
+    background-color:$primaryColor;
     padding: 1rem 2%;
 }
 
