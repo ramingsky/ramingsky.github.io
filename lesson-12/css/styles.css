@@ -453,7 +453,7 @@ body {
 }
 
 header {
-    background-color:$primaryColor;
+    background-color:#b6eea6;
     padding: 1rem 2%;
 }
 
@@ -524,7 +524,7 @@ main figcaption {
 }
 
 footer {
-    background-color: $primaryColor;
+    background-color: #b6eea6;
     text-align: center;
     padding: 1rem 2%;
 }
