@@ -21,8 +21,8 @@
     <header>
         <img class="logo-image" src="images/site/logo.gif" alt="Site Logo">
         <div class="banner">
-            <h1>ACME</h1>
-            <div class="motto">"A great site."</div>
+            <h1></h1>
+            <div class="motto"></div>
         </div>
     </header>
     <nav>
@@ -61,7 +61,17 @@ Recipe Text
   Roadrunner Pot Pie
   Roadrunner Soup
   Roadrunner Tacos
-  
-Footer Text
-&copy; ACME, All rights reserved.
-All images used are believed to be in "Fair Use". Please notify the author if any are not and they will be removed.
+
+  <footer>
+    <p>&copy;
+        <script>
+            document.write(new Date().getFullYear());
+        </script>  ACME, All rights reserved.</p>
+<p>All images used are believed to be "Fair Use". Please notify the author if any are not and they will be removed.
+            </p>
+    <div id="currentDate"></div>
+    
+</footer>
+<script src="js/current-date.js"></script>
+</body>
+</html>

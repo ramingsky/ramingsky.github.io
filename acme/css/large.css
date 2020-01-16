@@ -9,52 +9,10 @@
         height: auto;
     }
 
-    .weather-summary {
-        width: 30%;
-        font-size: 14px;
-    }
+   
 
     .container figure:hover {
         box-shadow: 0 0 50px #333;
     }
 
-    /* Home Page styles*/
-
-    .towndata {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-    }
-
-    .towndata section {
-        grid-template-columns: 1fr;
-        grid-template-areas: "content""image";
-
-    }
-
-    .towndata section div {
-        grid-area: content;
-        align-self: center;
-        padding-left: 1em;
-        padding-right: 1em;
-
-    }
-
-    .towndata section img {
-        grid-area: image;
-    }
-
-    .towndata section:nth-child(2) {
-        grid-template-columns: 1fr;
-        grid-template-areas: "content""image";
-
-
-        text-align: left;
-
-
-
-    }
-
-
-
-}
+  
